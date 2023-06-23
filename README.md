@@ -31,3 +31,10 @@ Ghi đè phương thức của đa hình thực thi (RUN TIME) thì cần từ k
 Ví dụ:
 1. public: virtual void HienThi() = 0; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;// đây là phương thức thuần ảo
 2. public: virtual double Tinh_DienTich() = 0; &emsp;&emsp;&emsp;// đây là phương thức thuần ảo
+
+# Đặc trưng của một đối tượng
+1. Có thuộc tính.
+2. Có phương thức.
+3. Có hàm khởi tạo.
+4. Có hàm hủy.
+5. Có thể tạo biến static (nhưng biến static phải được gán giá trị ở ngoài lớp, nhớ thêm toán tử phạm vi "::" nhé).
