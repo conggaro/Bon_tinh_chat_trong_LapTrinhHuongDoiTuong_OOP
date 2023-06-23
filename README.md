@@ -5,7 +5,9 @@
 4. Tính trừu tượng(Abstraction)
 
 # Đặc trưng của tính đóng gói
-Là viết code thuộc tính và phương thức bên trong 1 lớp.
+1. Là viết code thuộc tính và phương thức bên trong 1 lớp.
+2. Có lý thuyết về hàm bạn.
+3. Có lý thuyết về lớp bạn.
 
 # Đặc trưng của tính kế thừa
 Là lớp B thì kế thừa thuộc tính và phương thức của lớp A (phải có chữ public hoặc protected).
