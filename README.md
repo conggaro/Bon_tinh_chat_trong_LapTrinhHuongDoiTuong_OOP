@@ -3,3 +3,24 @@
 2. Tính kế thừa (Inheritance)
 3. Tính đa hình (Polymorphism)
 4. Tính trừu tượng(Abstraction)
+
+# Đặc trưng của tính đóng gói
+là viết code thuộc tính và phương thức bên trong 1 lớp.
+
+# Đặc trưng của tính kế thừa
+là lớp B thì kế thừa thuộc tính và phương thức của lớp A (phải có chữ public hoặc protected).
+
+# Đặc trưng của tính đa hình
+là ghi đè (override) và nạp chồng (overload), có 2 kiểu đa hình (đa hình biên dịch COMPILE TIME và đa hình thực thi RUN TIME).
+1. ghi đè phương thức.
+2. nạp chồng phương thức.
+3. nạp chồng toán tử.
+
+# Đặc trưng của tính trừu tượng
+1. có ít nhất một phương thức thuần ảo.
+2. chỉ viết phần đặc tả, tức là chỉ viết tên phương thức và tham số thôi.
+3. cú pháp nó kiểu "= 0".
+
+Ví dụ:
+1. public: void HienThi() = 0; // đây là phương thức thuần ảo
+2. public: double Tinh_DienTich() = 0; // đây là phương thức thuần ảo
