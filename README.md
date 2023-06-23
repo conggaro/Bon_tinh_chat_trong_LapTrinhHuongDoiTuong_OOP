@@ -22,5 +22,5 @@ là ghi đè (override) và nạp chồng (overload), có 2 kiểu đa hình (đ
 3. cú pháp nó kiểu "= 0".
 
 Ví dụ:
-1. public: void HienThi() = 0; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;// đây là phương thức thuần ảo
-2. public: double Tinh_DienTich() = 0; &emsp;&emsp;&emsp;// đây là phương thức thuần ảo
+1. public: virtual void HienThi() = 0; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;// đây là phương thức thuần ảo
+2. public: virtual double Tinh_DienTich() = 0; &emsp;&emsp;&emsp;// đây là phương thức thuần ảo
