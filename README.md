@@ -14,7 +14,10 @@ là lớp B thì kế thừa thuộc tính và phương thức của lớp A (ph
 là ghi đè (override) và nạp chồng (overload), có 2 kiểu đa hình (đa hình biên dịch COMPILE TIME và đa hình thực thi RUN TIME).
 1. ghi đè phương thức.
 2. nạp chồng phương thức.
-3. nạp chồng toán tử.
+3. nạp chồng toán tử (+, -, *, /, <<).&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;// "<<" là toán tử hiển thị trong C++
+
+ghi đè phương thức của đa hình biên dịch (COMPILE TIME) thì không cần từ khóa "virtual".
+ghi đè phương thức của đa hình thực thi (RUN TIME) thì cần từ khóa "virtual".
 
 # Đặc trưng của tính trừu tượng
 1. có ít nhất một phương thức thuần ảo.
