@@ -1,0 +1,5 @@
+# Bốn tính chất trong lập trình hướng đối tượng (OOP - Object Oriented Programming)
+1. Tính đóng gói (Encapsulation)
+2. Tính kế thừa (Inheritance)
+3. Tính đa hình (Polymorphism)
+4. Tính trừu tượng(Abstraction)
