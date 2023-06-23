@@ -16,7 +16,7 @@ là ghi đè (override) và nạp chồng (overload), có 2 kiểu đa hình (đ
 2. nạp chồng phương thức.
 3. nạp chồng toán tử (+, -, *, /, <<).&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;// &nbsp;"<<" là toán tử hiển thị trong C++
 
-ghi đè phương thức của đa hình biên dịch (COMPILE TIME) thì không cần từ khóa "virtual".
+ghi đè phương thức của đa hình biên dịch (COMPILE TIME) thì không cần từ khóa "virtual".<br>
 ghi đè phương thức của đa hình thực thi (RUN TIME) thì cần từ khóa "virtual".
 
 # Đặc trưng của tính trừu tượng
