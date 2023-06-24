@@ -11,7 +11,8 @@
 4. Có biến static (dùng để đếm đối tượng).
 
 # Đặc trưng của tính kế thừa
-Là lớp B thì kế thừa thuộc tính và phương thức của lớp A (phải có chữ public hoặc protected).
+1. Là lớp B thì kế thừa thuộc tính và phương thức của lớp A (phải có chữ public hoặc protected).
+2. Yêu cầu tái sử dụng code của lớp cha thì nên dùng tính kế thừa.
 
 # Đặc trưng của tính đa hình
 Là ghi đè (override) và nạp chồng (overload), có 2 kiểu đa hình (đa hình biên dịch COMPILE TIME và đa hình thực thi RUN TIME).<br>
